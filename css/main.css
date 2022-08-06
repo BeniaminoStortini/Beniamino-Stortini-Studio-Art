@@ -7,7 +7,7 @@
 }
 
 
-main {
+header {
     background-color: rgb(42, 40, 40);
 
 }
@@ -15,7 +15,7 @@ main {
             /* contenitore articoli centrato */ 
 .container {
     position: relative;
-    width: 900px;
+    width: 100%;
     margin: 0px auto;
     /* padding: 15px 100px; */
     background-color: white;
@@ -52,7 +52,7 @@ main {
     font-family: sans-serif;
 }
 
-.paese{
+.studio{
     /* color: #a2a29e; */
     color: #008fd5;
 }
@@ -82,7 +82,7 @@ main {
     font-family:'Poppins', serif;
     cursor: pointer;
     letter-spacing: 1px;
-    transition: color 2s;
+    transition: color 1s;
 }
 
 .textmenu:hover {
