@@ -6,30 +6,15 @@
     font-family: sans-serif;
 }
 
-
+            /*-----HEADER SECTION-----*/ 
 header {
-    background-color: rgb(42, 40, 40);
-
-}
-
-            /* contenitore articoli centrato */ 
-.container {
     position: relative;
     width: 100%;
+    height: 90px;
     margin: 0px auto;
-    /* padding: 15px 100px; */
     background-color: white;
-    /* padding: 0px; */
-    height: 800px;
 }
-            /* INTESTAZIONE SITO */ 
-.sfondo {
-    height: 410px; 
-    background-attachment:fixed;
-    background-image:url("../img/sfondo2.jpg")  ;
-    background-size: 100%;
-}
-
+            /*-----LOGO-----*/
 .logo1 {
     position:absolute;
     left: 13px;
@@ -57,16 +42,11 @@ header {
     color: #008fd5;
 }
 
+            /*-----MENU SECTION-----*/
 .menu {
-    position: absolute;
-    left: 0px;
-    top: 30px;
-    width: 100%;
-    height: 80px;
-    /* background-color: rgba(50, 50, 50, .58); */
-    padding-right: 16px;
+    height: 90px;
+    padding: 25px 16px 26px 700px;
     text-align: right;
-    font-weight: 600;
     letter-spacing: 0.05em;
 }
 
@@ -89,10 +69,24 @@ header {
     color: #008fd5;
 }
 
+/*-----MAIN SECTION-----*/
+main {
+
+}
+
+/*-----MAIN IMAGE-----*/
+.sfondo {
+height: 410px; 
+background-attachment:fixed;
+background-image:url("../img/sfondo.jpg")  ;
+background-size: 100%;
+}
+
+/*-----SQUARE-----*/
 .square {
     position:absolute;
     left: 98px;
-    top: 161px;
+    top: 220px;
     width: 200px;
     height: 200px;
     background: transparent;
@@ -103,7 +97,7 @@ header {
     /* transition: 0.2s; */
 }
 
-.textbox {
+.textsquare {
     font-size: 30px;
     color: black;
     font-weight: 600 ;
