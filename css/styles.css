@@ -43,29 +43,41 @@ header {
 }
 
             /*-----MENU SECTION-----*/
-.main-menu {
+nav {
     height: 90px;
     padding: 25px 16px 26px 700px;
     text-align: right;
     letter-spacing: 0.05em;
 }
 
-.textmenu {
+nav > ul > li {
+    list-style: none;
     display: inline-block;
-    width: 88px;
-    padding: 0px;
-    margin: 8px 0px 8px;
-    font-size: 15px;
-    font-weight: 400;
-    /* text-transform: uppercase; */
-    text-align: center;
-    font-family:'Poppins', serif;
-    cursor: pointer;
-    letter-spacing: 1px;
-    transition: color 1s;
+    margin-right: 10px;
 }
 
-.textmenu:hover {
+nav > ul > li:last-child {
+    margin-right: 0;
+}
+
+nav > ul > li > a {
+    display: inline-block;
+    width: 88px;
+    margin: 8px 0px 8px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Poppins', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: color 1s;
+    color: #000;
+}
+
+nav > ul > li > a:hover {
     color: #008fd5;
 }
 
@@ -109,7 +121,7 @@ hr {
     border: 1px solid #008fd5;
 }
 
-.gold {
+/* .gold {
     position:absolute;
     left: 1000px;
     top: 220px;
@@ -121,4 +133,4 @@ hr {
 .imgold {
     width: 300px;
     height: auto;
-}
+} */
